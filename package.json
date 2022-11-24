@@ -8,18 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cloud-creative-studios/p4-get-latest-github-action.git"
+    "url": "https://github.com/akiojin/p4-get-latest-github-action.git"
   },
   "keywords": [
     "actions",
-    "dotnet"
+    "perforce",
+    "p4"
   ],
   "author": "akiojin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cloud-creative-studios/p4-get-latest-github-action/issues"
+    "url": "https://github.com/akiojin/p4-get-latest-github-action/issues"
   },
-  "homepage": "https://github.com/cloud-creative-studios/p4-get-latest-github-action#readme",
+  "homepage": "https://github.com/akiojin/p4-get-latest-github-action#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@akiojin/p4-command": "^0.1.1"
