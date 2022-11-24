@@ -10,7 +10,10 @@ async function Run(): Promise<void>
             throw new Error('Not supported platform.')
         }
 
-        P4.Initialize(core.getInput('ip'), core.getInput('username'), core.getInput('workspace'));
+        P4.Initialize(
+            core.getInput('p4-server'),
+            core.getInput('username'),
+            core.getInput('workspace'));
 
         core.startGroup('p4 sync')
         await P4.GetLatest(core.getInput('password'))
